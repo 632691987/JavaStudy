@@ -24,7 +24,6 @@ public class SwitchCaseTest {
 
     public String checkObject(Object obj) {
         return switch (obj) {
-            case A h && h.title().equalsIgnoreCase("title") -> "this is class A";
             case B ignored -> "this is class B";
             case C1 c1 -> "this is class C1";
             case C c -> "this is class C";
